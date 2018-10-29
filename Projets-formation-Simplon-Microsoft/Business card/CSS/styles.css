@@ -1,0 +1,74 @@
+body {
+	position: relative;
+	height: 5.4cm;
+	width: 8.5cm;
+	border: solid;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: blue;
+}
+
+#my_bg {
+	position: relative;
+	height: 5.4cm;
+	width: 8.5cm;
+	opacity: .9;
+}
+
+#my_picture {
+	height: 4cm;
+	width: auto;
+}
+
+.container {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.container a {
+	position: absolute;
+	left: 1cm;
+	top: 4.2cm;
+	
+}
+
+#my_presentation {
+	position: absolute;
+	width: 5cm;
+	top: 0;
+	color: white;
+	font-size: 0.9em;
+}
+
+#my_presentation h1 {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+p.lead {
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: yellow;
+}
+
+ul {
+	margin-top: .4cm;
+	padding-left: 0cm;
+	list-style-type: none;
+	background: url(../pictures/phone_logo.png) no-repeat;
+
+}
+li {
+	margin-bottom: 0cm;
+	font-size: 0.85em;
+}
+
